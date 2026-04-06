@@ -12,3 +12,9 @@ Nix-packaged session history indexing and search for agent workflows.
 ## Status
 
 Early scaffold. See [docs/work-items/README.md](docs/work-items/README.md).
+
+## Current Direction
+
+- local-first storage
+- structured ingest before semantic enrichment
+- transcript reuse over summarization
