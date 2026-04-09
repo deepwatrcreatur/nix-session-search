@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "franken_agent_detection": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1775673861,
+        "narHash": "sha256-gWA8k0ufCsaZHFRg0qXplSAmU5Z7wEoIiDrXckfmz1c=",
+        "owner": "Dicklesworthstone",
+        "repo": "franken_agent_detection",
+        "rev": "29d9a2ce6e8e64c527db8c1e02fddbe80869708b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Dicklesworthstone",
+        "repo": "franken_agent_detection",
+        "type": "github"
+      }
+    },
+    "frankensqlite": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1775701977,
+        "narHash": "sha256-7yUOzr8iymh7n8DUMOz3NX/6WArwFYBF7n3Ab14w/Cs=",
+        "owner": "Dicklesworthstone",
+        "repo": "frankensqlite",
+        "rev": "e83d256c30d8598c40985ea164ca87cbe46dad3f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Dicklesworthstone",
+        "repo": "frankensqlite",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1775423009,
+        "narHash": "sha256-vPKLpjhIVWdDrfiUM8atW6YkIggCEKdSAlJPzzhkQlw=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "68d8aa3d661f0e6bd5862291b5bb263b2a6595c9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "franken_agent_detection": "franken_agent_detection",
+        "frankensqlite": "frankensqlite",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
