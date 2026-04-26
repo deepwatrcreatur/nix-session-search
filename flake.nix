@@ -15,6 +15,11 @@
     {
       formatter = forAllSystems ({ pkgs }: pkgs.nixfmt-rfc-style);
 
+      packages = forAllSystems ({ pkgs }: {
+        cass = pkgs.callPackage ./pkgs/cass.nix { };
+        default = self.packages.${pkgs.system}.cass;
+      });
+
       devShells = forAllSystems ({ pkgs }: {
         default = pkgs.mkShell {
           packages = with pkgs; [
