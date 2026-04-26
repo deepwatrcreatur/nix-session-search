@@ -1,6 +1,6 @@
 # 04 Procedural Memory Extraction
 
-Status: ready
+Status: done
 
 ## Goal
 
@@ -17,3 +17,7 @@ Extract repeatable patterns from prior sessions once basic search exists.
 
 - this is downstream of working search
 - keep provenance explicit
+
+## Progress
+
+- schema and flow documented in `docs/procedural-memory.md`
