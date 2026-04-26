@@ -2,7 +2,7 @@
 
 ## Queue
 
-1. `01-transcript-ingest-schema.md` - in-progress
+1. `01-transcript-ingest-schema.md` - done
 2. `02-indexer-and-local-search-cli.md` - ready
 3. `03-provider-adapters-for-codex-claude-gemini.md` - ready
 4. `04-procedural-memory-extraction.md` - ready

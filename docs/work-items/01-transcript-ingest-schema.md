@@ -1,6 +1,6 @@
 # 01 Transcript Ingest Schema
 
-Status: in-progress
+Status: done
 
 ## Goal
 
@@ -23,3 +23,4 @@ Define a stable schema for transcript ingestion.
 - session and chunk record shapes defined
 - SQLite plus FTS chosen as the initial storage direction
 - provider targets narrowed to Codex CLI, Claude Code, and Gemini CLI
+- example transcript styles documented for Claude and Gemini
